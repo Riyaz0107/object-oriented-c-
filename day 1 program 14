@@ -1,0 +1,8 @@
+#include<iostream> using namespace std; class employee 
+{ 
+	public: 
+	string Emp_name,Mail_id,Address,Emp_id,Mobile_no;  	double BP,GP,NP,DA,HRA,PF,CF;  	void input() 
+	{ 
+		cout<<"\n\nEnter Name of the Employee : ";  		cin>>Emp_name; 
+		cout<<"\nEnter Address of the Employee : "; 
+		cin>>Address;
